@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+.grid-row{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.grid-row a{
+  display: block;
+  margin: 30px;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+input[type="text"]{
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
